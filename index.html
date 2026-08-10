@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adetomiwa Tomilola-Joy | GIS Data Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="site-title">Adetomiwa Tomilola-Joy</div>
+    <button class="menu-toggle" id="menuToggle">&#9776;</button>
+    <ul id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="hero">
+  <img src="profile.jpg" alt="Adetomiwa Tomilola-Joy">
+  <div class="eyebrow">GIS Data Analyst</div>
+  <h1>Adetomiwa Tomilola-Joy</h1>
+  <h2>Reading patterns in maps, data and spreadsheets</h2>
+  <p class="tag">I turn raw, messy geospatial and business data into clear insights — backed by a research background in geology and hands-on analytics projects in SQL, Power BI and Excel.</p>
+  <a class="btn" href="portfolio.html">View My Work</a>
+</div>
+
+<section id="portfolio">
+  <h3>Featured Projects</h3>
+  <p class="subhead">Two highlights from my most recent work — see all five on the Portfolio page</p>
+
+  <div class="card">
+    <div class="card-banner banner-purple">SQL<br>PostgreSQL</div>
+    <div class="card-text">
+      <h4>TradeZone E-Commerce Analysis</h4>
+      <p>Cleaned and analyzed two years of transaction data for a fast-growing Nigerian e-commerce platform, uncovering fulfillment delays and payment gaps behind a falling repeat-purchase rate.</p>
+      <div class="tags"><span>PostgreSQL</span><span>SQL</span><span>Data Cleaning</span></div>
+      <a class="cta" href="https://github.com/Tomilola-Joy/E-commerce-SQL-Analysis" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-banner banner-pink">Power BI<br>Excel</div>
+    <div class="card-text">
+      <h4>Nigeria 2026 Federal Budget Analysis</h4>
+      <p>Extracted, cleaned and visualized Nigeria's &#8358;51.59 trillion 2026 federal budget across 56 MDAs, building an interactive Power BI dashboard comparing spending on Security, Health and Education.</p>
+      <div class="tags"><span>Power BI</span><span>Excel</span><span>Data Extraction</span></div>
+      <a class="cta" href="https://github.com/Tomilola-Joy/Nigeria-2026-Federal-Budget-Analysis" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+    </div>
+  </div>
+
+  <div style="text-align:center; margin-top:10px;">
+    <a class="btn" href="portfolio.html">See All 5 Projects</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-name">Adetomiwa Tomilola-Joy</div>
+  <div class="footer-links">
+    <a href="mailto:adetomiwatomilolajoy@gmail.com">Gmail</a>
+    <a href="https://github.com/Tomilola-Joy?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/adetomiwa-tomilola" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('menuToggle').addEventListener('click', ()=>{
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>

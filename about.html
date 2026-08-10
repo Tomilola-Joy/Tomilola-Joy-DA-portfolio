@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Adetomiwa Tomilola-Joy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="site-title">Adetomiwa Tomilola-Joy</div>
+    <button class="menu-toggle" id="menuToggle">&#9776;</button>
+    <ul id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div id="about-hero">
+  <img src="profile.jpg" alt="Adetomiwa Tomilola-Joy">
+  <div>
+    <div class="eyebrow">About Me</div>
+    <h1>Adetomiwa Tomilola-Joy</h1>
+    <h2>GIS Data Analyst &mdash; grounded in geology, working in data</h2>
+  </div>
+</div>
+
+<div class="about-content-wrap">
+  <section id="about">
+    <div class="about-wrap">
+      <div>
+        <p>I hold a BSc in Geology (Environmental Geology &amp; Geochemistry) from Olabisi Onabanjo University, where my final-year research investigated heavy metal concentration and lateral depth distribution around a dumpsite in the Dahomey Basin, using Inductively Coupled Plasma-Atomic Emission Spectrometry (ICP-AES). That work taught me to collect, clean, and interpret spatial and geochemical data rigorously &mdash; a skill set I now apply to GIS and business analytics problems.</p>
+        <p>Since graduating, I've worked as a content strategist and freelance research analyst, producing 20+ analytical reports and reporting to stakeholders, while building hands-on data analytics projects in SQL, Power BI, Excel, and geospatial tools.</p>
+        <p>I'm currently looking for a role as a GIS Data Analyst &mdash; someone who already knows how to clean a dataset, question a number, map it, and write up what it means for people who don't have time to dig through it themselves.</p>
+        <div class="skills-list">
+          <span>SQL</span><span>Power BI</span><span>Excel</span><span>Python</span>
+          <span>DAX</span><span>Data Cleaning</span><span>EDA</span><span>KPI Dashboards</span>
+          <span>Geospatial Analysis</span>
+        </div>
+      </div>
+      <div class="about-facts">
+        <div><b>Education</b>BSc Geology, Olabisi Onabanjo University</div>
+        <div><b>Certifications</b>Google Data Analytics (In Progress), Deloitte Job Simulation</div>
+        <div><b>Location</b>Nigeria</div>
+        <div><b>Focus</b>GIS &amp; Data Analysis</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="footer-name">Adetomiwa Tomilola-Joy</div>
+  <div class="footer-links">
+    <a href="mailto:adetomiwatomilolajoy@gmail.com">Gmail</a>
+    <a href="https://github.com/Tomilola-Joy?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/adetomiwa-tomilola" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('menuToggle').addEventListener('click', ()=>{
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
